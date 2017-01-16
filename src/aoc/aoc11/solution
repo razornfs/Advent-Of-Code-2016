@@ -1,0 +1,12 @@
+Input:
+
+"The first floor contains a thulium generator, a thulium-compatible microchip, a plutonium generator, and a strontium generator.
+The second floor contains a plutonium-compatible microchip and a strontium-compatible microchip.
+The third floor contains a promethium generator, a promethium-compatible microchip, a ruthenium generator, and a ruthenium-compatible microchip.
+The fourth floor contains nothing relevant."
+
+Solved it without code. I noticed that to get n items to the next floor, you need at least 2*n - 3 moves (for n = 1 it's 1 move).
+Turns out that this lower bound on the answer is also the correct answer.
+
+Part 1: answer = 2*4 - 3 + 2*(4 + 2) - 3 + 2*(4 + 2 + 4) - 3 = 31
+Part 2: answer = 2*8 - 3 + 2*(8 + 2) - 3 + 2*(8 + 2 + 4) - 3 = 55
