@@ -1,5 +1,7 @@
 These are my solutions to http://adventofcode.com/2016
 
+![score](http://screenshooterusnortheu.blob.core.windows.net/engine4files/riwcykqsancpzspvawovabylnxsclkinawhkahefrthmjhfpiexhgmqkdqlfcditinguuhpogerjqsijpyuydnsthtevqvpzkyxl)
+
 Some visualizations:
 
 
